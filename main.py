@@ -357,7 +357,7 @@ async def call(call: types.CallbackQuery):
 # handler for search
 @dp.inline_handler()
 async def inline_echo(inline_query: InlineQuery):
-    text = inline_query.query or 'echo'
+    text = inline_query.query or 'opps notting found'
 
     item = li
     items = []
