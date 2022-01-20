@@ -160,7 +160,7 @@ async def first_answer(message: types.Message):
 # handling callback for semesters to show courses
 @dp.callback_query_handler(
     text=['call1', 'call2', 'calle', 'calle2', 'calle3', 'calle23', 'sem3x', 'calle4', 'calle42', 'sem34', 'calle5',
-          'calle52'])  # handling callback data for pre-engineering semesters
+          'calle52'])  
 async def call(call: types.CallbackQuery):
     await call.message.delete()
     if call.data == 'call1':
