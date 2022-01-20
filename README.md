@@ -1,1 +1,1 @@
-# BOT
+# BOT for course outline 
